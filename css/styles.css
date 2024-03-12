@@ -10877,7 +10877,7 @@ p.lead {
 }
 
 .lead2 {
-  font-size: 1.04rem;
+  font-size: 1.03rem;
   font-weight: 500;
 }
 
@@ -10997,6 +10997,33 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+}
+
+section.resume-section1 {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-section1 .resume-section-content1 {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  section.resume-section1 {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 1000px) {
+  section.resume-section1 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
